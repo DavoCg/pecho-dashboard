@@ -1,0 +1,27 @@
+{
+  "name": "pecho-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavoCg/pecho-dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavoCg/pecho-dashboard/issues"
+  },
+  "homepage": "https://github.com/DavoCg/pecho-dashboard#readme",
+  "dependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.3",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "reflux": "^0.2.7",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
