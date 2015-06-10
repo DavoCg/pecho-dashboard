@@ -15,7 +15,7 @@ var loginStore = Reflux.createStore({
             .set('Content-Type', 'application/json')
             .send(payload)
             .end( (err, res) =>{
-                if(err) console.log(err);
+                if(err) return this.trigger({error: {message: 'Server error'}});
                 if(res.status !== HTTPStatus.OK) return this.trigger({error: {message: res.text}});
                 setStorage(res);
                 return this.trigger({error: false});
