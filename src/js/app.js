@@ -8,7 +8,7 @@ var Dashboard = require('./pages/dashboard');
 var routes = (
     <Route path='/'>
         <Route name='login' path='login' handler={Login}/>
-        <Route name='dashboard' path='Dashboard' handler={Dashboard}/>
+        <Route name='dashboard' path='dashboard' handler={Dashboard}/>
         <DefaultRoute handler={Dashboard} />
     </Route>
 );

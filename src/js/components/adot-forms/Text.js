@@ -9,7 +9,7 @@ var Text = React.createClass({
 
     render(){
         var defaultStyle = {
-            width: 100 + '%',
+            width: 97.5 + '%',
             height: 35 + 'px',
             padding: 3 + 'px'
         };
