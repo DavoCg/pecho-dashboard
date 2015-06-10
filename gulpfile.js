@@ -15,7 +15,7 @@ gulp.task('vendors', function(){
 });
 
 gulp.task('bundle', function(){
-    var bundler = browserify({ debug: true });
+    var bundler = browserify({ debug: false });
     externals.forEach(function(x){bundler.exclude(x).external(x)});
     bundler.require(require.resolve('./src/js/app.js'), {entry: true});
     bundler.transform(babelify);
